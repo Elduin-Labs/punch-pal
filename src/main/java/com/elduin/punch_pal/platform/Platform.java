@@ -1,4 +1,4 @@
-package com.example.modtemplate.platform;
+package com.elduin.punch_pal.platform;
 
 public interface Platform {
 	boolean isModLoaded(String modId);

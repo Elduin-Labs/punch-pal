@@ -1,8 +1,8 @@
-package com.example.modtemplate.platform.fabric;
+package com.elduin.punch_pal.platform.fabric;
 
 //? fabric {
 
-import com.example.modtemplate.platform.Platform;
+import com.elduin.punch_pal.platform.Platform;
 import net.fabricmc.loader.api.FabricLoader;
 
 public class FabricPlatform implements Platform {

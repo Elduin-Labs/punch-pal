@@ -56,3 +56,6 @@ bin/
 .idea/runConfigurations/*
 !.idea/runConfigurations/Run_Active_Client.xml
 !.idea/runConfigurations/Run_Active_Server.xml
+run*/
+.gradle*/
+libs/

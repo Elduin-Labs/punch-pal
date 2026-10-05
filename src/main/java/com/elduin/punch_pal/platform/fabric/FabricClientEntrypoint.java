@@ -1,8 +1,8 @@
-package com.example.modtemplate.platform.fabric;
+package com.elduin.punch_pal.platform.fabric;
 
 //? fabric {
 
-import com.example.modtemplate.ModTemplate;
+import com.elduin.punch_pal.PunchPal;
 import dev.kikugie.fletching_table.annotation.fabric.Entrypoint;
 import net.fabricmc.api.ClientModInitializer;
 
@@ -11,7 +11,7 @@ public class FabricClientEntrypoint implements ClientModInitializer {
 
 	@Override
 	public void onInitializeClient() {
-		ModTemplate.onInitializeClient();
+		PunchPal.onInitializeClient();
 	}
 
 }

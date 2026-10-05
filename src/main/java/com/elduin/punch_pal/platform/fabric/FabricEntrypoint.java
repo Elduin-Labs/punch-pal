@@ -1,8 +1,8 @@
-package com.example.modtemplate.platform.fabric;
+package com.elduin.punch_pal.platform.fabric;
 
 //? fabric {
 
-import com.example.modtemplate.ModTemplate;
+import com.elduin.punch_pal.PunchPal;
 import dev.kikugie.fletching_table.annotation.fabric.Entrypoint;
 import net.fabricmc.api.ModInitializer;
 
@@ -11,7 +11,7 @@ public class FabricEntrypoint implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		ModTemplate.onInitialize();
+		PunchPal.onInitialize();
 		FabricEventSubscriber.registerEvents();
 	}
 }
